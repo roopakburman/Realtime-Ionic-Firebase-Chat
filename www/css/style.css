@@ -1,0 +1,135 @@
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: white;
+}
+strong{
+    color: black;
+}
+
+.pane,
+.view,
+.modal {
+    background:white;
+    background: linear-gradient(to right, #1e5799 0%, #2ce0bf 19%, #76dd2c 40%, #dba62b 60%, #e02cbf 83%, #1e5799 100%);
+    background-size: 10000px 100%;
+    animation: bgColorSwitcher 45s linear infinite;
+}
+
+.bar.bar-positive,
+.bar.bar-stable {
+    border-color: rgba(241, 196, 15,1.0);;
+    background-color: rgba(241, 196, 15,1.0);;
+    background-image: linear-gradient(0deg, rgba(241, 196, 15,1.0), rgba(241, 196, 15,0.8), transparent 50%);
+    color: #fff;
+}
+
+.bar.bar-stable .title,
+.bar-stable .button.button-clear {
+    color: white;
+}
+
+.card, .list-inset {
+    margin: 20px 0 0 0;
+}
+
+@keyframes bgColorSwitcher {
+  0% { background-position-x: 0; }
+  100% { background-position-x: 10000px; }
+}
+
+.logo {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.item {
+    background: transparent;
+    border-color: transparent;
+    color: white;
+}
+.blkBck{
+    color: yellow;
+}
+.scroll-content{
+    background-color: #272724;
+}
+.item-input {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.item-input input {
+    background: white;
+    
+}
+
+.card .item.item-input input, .list-inset .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input,
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    height: 50px;
+    line-height: 50px;
+    padding: 10px 15px;
+
+    width: 100%;
+}
+
+textarea{
+    padding: 0px 0px;
+    width: 100%;
+
+}
+
+.item-note {
+    font-size: 10px;
+    margin-top: -22px;
+    margin-right: -35px;
+}
+
+.button {
+    font-size: 20px;
+}
+
+.button.button-positive.active,
+.button.button-positive.activated {
+    background: rgba(241, 196, 15,1.0);
+    border-color: transparent;
+}
+
+.button.button-positive {
+    background: rgba(241, 196, 15,1.0);
+    font-weight: 600;
+    height: 60px;
+}
+
+.button.button-positive.button-outline {
+    border-color: #ffffff;
+    background: transparent;
+    color: #ffffff;
+    width: calc(100% - 20px);
+}
+
+.button-small .icon:before, .button-small.icon:before, .button-small.icon-left:before, .button-small.icon-right:before {
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 3px;
+}
+
+.button.icon-left:before {
+    float: left;
+    margin-right: -15px;
+    padding-left: 15px;
+}
+
+
+.textCenter {
+    text-align: center;
+}
+
+.card, .list-inset {
+    background: transparent;
+    box-shadow: none;
+}
